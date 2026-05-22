@@ -1,0 +1,19 @@
+"component: bridge":
+  - changed-files:
+    - any-glob-to-any-file: ["bridge/**", "include/bridge/**"]
+
+"component: assets":
+  - changed-files:
+    - any-glob-to-any-file: ["assets/**"]
+
+"component: build":
+  - changed-files:
+    - any-glob-to-any-file: ["CMakeLists.txt", "CMakePresets.json", "cmake/**"]
+
+"component: ci":
+  - changed-files:
+    - any-glob-to-any-file: [".github/workflows/**", ".github/dependabot.yml"]
+
+"component: docs":
+  - changed-files:
+    - any-glob-to-any-file: ["docs/**", "*.md"]

@@ -1,0 +1,66 @@
+name: RFC — Design Proposal
+description: Propose a significant change to the bridge API or asset pipeline requiring community discussion
+labels: ["rfc", "status: under-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        RFCs are required for changes to the IContentPack interface binding, new FA format support
+        affecting multiple modules, new major dependencies, and breaking changes to the bridge API.
+        Review the RFC process in [GOVERNANCE.md](../../GOVERNANCE.md).
+
+  - type: input
+    id: title
+    attributes:
+      label: RFC title
+      placeholder: "RFC: Add streaming support for large FA mesh files"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Primary component affected
+      options:
+        - bridge
+        - assets
+        - build system
+        - multiple / cross-cutting
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this change needed? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed design
+      description: Describe the change in detail. Include interfaces, data structures, or code sketches as needed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you consider? Why were they rejected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: drawbacks
+    attributes:
+      label: Drawbacks
+      description: What are the costs and risks of this change?
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open questions
+      description: What unresolved questions should the discussion address?

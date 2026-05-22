@@ -1,0 +1,79 @@
+- name: "component: bridge"
+  color: "0075ca"
+  description: "IContentPack bridge implementation"
+
+- name: "component: assets"
+  color: "0075ca"
+  description: "Asset translation pipeline"
+
+- name: "component: build"
+  color: "0075ca"
+  description: "CMake build system"
+
+- name: "component: ci"
+  color: "0075ca"
+  description: "GitHub Actions workflows"
+
+- name: "component: docs"
+  color: "0075ca"
+  description: "Documentation"
+
+- name: "bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "enhancement"
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: "documentation"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+- name: "question"
+  color: "d876e3"
+  description: "Further information is requested"
+
+- name: "rfc"
+  color: "e4e669"
+  description: "Request for Comments — design proposal"
+
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "This issue or PR already exists"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "needs-info"
+  color: "e4e669"
+  description: "Waiting for additional information"
+
+- name: "good first issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+
+- name: "help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "release"
+  color: "0e8a16"
+  description: "Release tracking"
+
+- name: "status: under-discussion"
+  color: "fbca04"
+  description: "RFC is open for community discussion"
+
+- name: "status: accepted"
+  color: "0e8a16"
+  description: "RFC accepted, implementation may proceed"
+
+- name: "status: rejected"
+  color: "d73a4a"
+  description: "RFC rejected"
+
+- name: "status: implemented"
+  color: "0075ca"
+  description: "RFC has been implemented"

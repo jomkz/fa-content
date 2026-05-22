@@ -1,0 +1,41 @@
+# Build output
+build/
+out/
+.cache/
+CMakeCache.txt
+CMakeFiles/
+_deps/
+vcpkg_installed/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pdb
+
+# IDE
+.vs/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FA copyrighted game content — NEVER commit
+*.LIB
+*.PIC
+*.PAL
+*.FLT
+*.SHP
+*.VXA
